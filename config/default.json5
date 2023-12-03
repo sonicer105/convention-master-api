@@ -1,0 +1,29 @@
+{
+    api: {
+        // Configurations for the web server itself
+        port: 0,
+        // Credentials to use for JWT Auth
+        username: "",
+        password: "",
+        // Only used for documentation. The access url for the API externally.
+        // serviceUrl: "http://localhost:3000/lp-api"
+    },
+    mysql: {
+        // Configuration to connect to the Convention Master Database
+        host: "localhost",
+        port: 3306,
+        username: "",
+        password: "",
+        database: "convention_master"
+    },
+    conventionMaster: {
+        // Event for API to target
+        targetEventId: "",
+        // Membership types to be considered above base
+        sponsorMemberships: ["patron", "sponsor", "vip"],
+        // Badge types to show real name instead of fan name publicly 
+        badgeTypePreferName: ["FNOB"],
+        // Badge types to never show real name for publicly
+        badgeTypeNaverName: ["FNO"]
+    }
+}
