@@ -1,5 +1,5 @@
 const config = require("config");
-const mysql = require("mysql");
+const mysql = require("mysql2");
 const ReportSponsor = require("../model/reportSponsor");
 
 var connection = mysql.createConnection({

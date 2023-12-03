@@ -1,6 +1,6 @@
 {
-	"name": "simple-express-crud-api",
-	"version": "0.1.0",
+	"name": "convention-master-api",
+	"version": "0.1.1",
 	"private": true,
 	"scripts": {
 		"start": "NODE_ENV=production node ./server.js",
@@ -15,7 +15,7 @@
 		"jsonwebtoken": "^9.0.2",
 		"luxon": "^3.4.4",
 		"morgan": "^1.10.0",
-		"mysql": "^2.18.1",
+		"mysql2": "^3.6.5",
 		"swagger-jsdoc": "^6.2.8",
 		"swagger-ui-express": "^5.0.0"
 	},

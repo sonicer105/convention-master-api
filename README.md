@@ -64,4 +64,6 @@ WantedBy=multi-user.target
 ```
 adjust user, path, node location as needed.
 
+run `systemctl enable cm-api.service` and `systemctl start cm-api.service` when ready
+
 This version's code licensed under MIT
