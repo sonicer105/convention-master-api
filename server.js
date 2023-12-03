@@ -59,7 +59,7 @@ const specs = swaggerJsdoc({
 Swagger. This was designed to get some interoperbility between ConventionMaster and third party applications without
 requiring additonal dev work by the Convention Master Team.
 
-[Github](https://github.com/sonicer105)`,
+[Github](https://github.com/sonicer105/convention-master-api)`,
       license: {
         name: "MIT",
         url: "https://spdx.org/licenses/MIT.html",
