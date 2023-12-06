@@ -39,7 +39,7 @@ function getReportSponsor(callback){
                 ));
             });
             callback(null, toReturn);
-            connection.end();
+            // connection.end();
         }
     );
 }

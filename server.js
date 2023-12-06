@@ -4,7 +4,7 @@ const port = config.get('api.port');
 
 // Check if the user did setup. If port is 0, they didn't do setup.
 if(port <= 0) {
-  console.log("Port must be greater then 0. Be sure to follow the instructions in the README.md before running.");
+  console.error("Port must be greater then 0. Be sure to follow the instructions in the README.md before running.");
   process.exit(12);
 }
 
