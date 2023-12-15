@@ -1,0 +1,14 @@
+[Unit]
+Description=Convention Master API
+After=network.target
+
+[Service]
+Environment=NODE_ENV=production
+Type=simple
+User=www-data
+WorkingDirectory=/opt/convention-master-api
+ExecStart=/snap/bin/node /opt/convention-master-api/server.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
