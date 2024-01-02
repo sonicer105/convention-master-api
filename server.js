@@ -56,8 +56,8 @@ const specs = swaggerJsdoc({
       title: "Convention Master Unofficial API",
       version: "0.1.0",
       description: `This is a simple REST API for Convention Master application made with Express and documented with
-Swagger. This was designed to get some interoperbility between ConventionMaster and third party applications without
-requiring additonal dev work by the Convention Master Team.
+Swagger. This was designed to get some interoperability between ConventionMaster and third party applications without
+requiring additional dev work by the Convention Master Team.
 
 [Github](https://github.com/sonicer105/convention-master-api)`,
       license: {

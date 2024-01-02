@@ -4,13 +4,13 @@ https://github.com/sonicer105/convention-master-api
 
 Really simple API for Convention Master.
 
-It's ment to be run on the same host as Convention Master and patched through via reverse proxy at the location `/lp-api/`.
+It's meant to be run on the same host as Convention Master and patched through via reverse proxy at the location `/lp-api/`.
 
-This API is read-only at the moment and provides it's own JWT based auth with a config defined username and password.
+This API is read-only at the moment and provides its own JWT based auth with a config defined username and password.
 
 Was tested on Node v20.10.0 and MariaDB 10.6.12 on linux but it should work with other versions/OSs
 
-This is an extreamly early version and there is a lot of work to do.
+This is an extremely early version and there is a lot of work to do.
 
 ## Features
 
